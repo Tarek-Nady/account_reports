@@ -9,8 +9,14 @@
     'data': [
         'views/account_payment_views.xml',
         'data/general_ledger_check_number.xml',
-        'static/src/assets.xml',
     ],
+    'assets':{
+        'web.assets_backend':[
+            'account_reports_check_number/static/src/components/general_ledger/line_name.js',
+            'account_reports_check_number/static/src/components/general_ledger/line_name.xml',
+            'account_reports_check_number/static/src/components/general_ledger/line_name.scss',
+        ]
+    },
     'installable': True,
     'auto_install': False,
     'license': 'LGPL-3',
