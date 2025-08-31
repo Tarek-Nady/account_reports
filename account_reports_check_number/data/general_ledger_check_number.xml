@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Add check_number column to General Ledger report -->
+        <record id="general_ledger_report_check_number_column" model="account.report.column">
+            <field name="report_id" ref="account_reports.general_ledger_report"/>
+            <field name="name">Check Number</field>
+            <field name="expression_label">check_number</field>
+            <field name="figure_type">string</field>
+            <field name="sequence">25</field>
+        </record>
+    </data>
+</odoo>
