@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-    <template id="assets_backend" inherit_id="web.assets_backend">
-        <xpath expr="." position="inside">
-            <script type="text/javascript" src="/account_reports_check_number/static/src/components/general_ledger/line_name.js"/>
-            <link rel="stylesheet" href="/account_reports_check_number/static/src/components/general_ledger/line_name.scss"/>
-        </xpath>
-    </template>
-</odoo>
